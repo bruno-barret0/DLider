@@ -3,6 +3,7 @@ body{
     width: 99%;
     height: 95vh; 
     padding: 0, 0, 0, 0;
+    position: relative;
     
 
 }
@@ -16,21 +17,24 @@ body{
     height: 55px;
     background-image: linear-gradient(black);
     border-bottom: solid 3px;
-    border-color: rgb(0, 255, 0);
-   
+    border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)30;
+    position: relative;
 
 }
 .logoimg{
     width: 4%;
+    position: relative;
 }
 
 .bi-search{
     color: rgb(0, 255, 0);
+    position: relative;
    
 
 }
 .bi-list{
     color: rgb(0, 255, 0);
+    position: relative;
 }
 .perquisa{
 
@@ -45,20 +49,32 @@ body{
     align-items: left;
     width: 100%;
     height: 98.3%;
+    position: relative;
     
 
 }
 
 #filtomenu{
     padding-left: 50%;
+    position: absolute;
 }
 
 
    /* filtros fim */
-   /*contato inicio */
-.zap{
-    background-color: white;
-    width: 5%;
+   
+   /* footer inicio */
+footer{
+    background-color: black;
+    width: 100%;
 }
+   /* footer final */
+
+   /*contato inicio */
+#contatos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(0, 255, 0); 
+    }
 
    /* contato fim */
