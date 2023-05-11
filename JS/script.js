@@ -3,7 +3,7 @@ const menuSuperior = document.getElementById('menuSuperior');
 const logo = document.createElement('div');
   logo.className = 'logo';
   const imagem = document.createElement('img');
-  imagem.src = './images/LOGO.jpg';
+  imagem.src = './images/logo.png';
   imagem.alt = '';
   imagem.className = 'logoimg';
   logo.appendChild(imagem);
