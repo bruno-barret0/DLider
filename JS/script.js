@@ -1,5 +1,4 @@
 const menuSuperior = document.getElementById('menuSuperior');
-const footers = document.getElementById('painel');
 
 const logo = document.createElement('div');
   logo.className = 'logo';
@@ -17,21 +16,12 @@ const lupa = document.createElement('div');
 
 const menuDireito = document.createElement('div');
   menuDireito.className = 'menuDireito'; 
-
-const painel = document.createElement('div');
-  painel.className = 'Painel';
-  const imagemFacebook = document.createElement('img');
-  imagem.src = './image/facebookstatic.png';
-  imagem.alt = '';
-  imagem.className = 'facebookStatic';
-  painel.appendChild(imagemFacebook);
-  
   
 menuSuperior.appendChild(logo);
 menuSuperior.appendChild(barraDePesquisa);   
 menuSuperior.appendChild(lupa);  
 menuSuperior.appendChild(menuDireito); 
-footers.appendChild(painel); 
+
 
 
 //subistituir a img do bootstrap por um botão com img
@@ -56,8 +46,19 @@ const footer = document.getElementById('footer');
 
 const contatos = document.createElement('div');
   contatos.className = 'contatos';
+
+  const painel = document.createElement('div');
+  painel.className = 'Painel';
+  const imagemFacebook = document.createElement('img');
+  imagemFacebook.src = './image/facebookstatic.png';
+  imagemFacebook.alt = '';
+  imagemFacebook.className = 'facebookStatic';
+  painel.appendChild(imagemFacebook);
   
 footer.appendChild(contatos);
+footer.appendChild(painel); 
+
+
 
 
 
