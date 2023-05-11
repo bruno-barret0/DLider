@@ -65,8 +65,18 @@ body{
    
    /* footer inicio */
 footer{
+    padding: 0;
     background-color: black;
     width: 100%;
+    height: 12%;
+    position: absolute;
+    border-top: solid 3px;
+    border-image: linear-gradient(to right, rgb(0, 255, 0), rgb(135, 255, 135), rgb(153, 255, 153), rgb(135, 255, 135), rgb(0, 255, 0), rgb(159, 255, 159))45%;
+}
+
+.facebookStatic{
+    display: flex;
+    background-color: color green;
 }
    /* footer final */
 
