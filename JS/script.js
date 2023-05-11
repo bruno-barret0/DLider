@@ -7,8 +7,20 @@ const logo = document.createElement('div');
   imagem.alt = '';
   imagem.className = 'logoimg';
   logo.appendChild(imagem);
-menuSuperior.appendChild(logo); 
 
+const barraDePesquisa = document.createElement('div');
+  barraDePesquisa.className = 'barraDePesquisa';
+
+const lupa = document.createElement('div');
+  lupa.className = 'lupa';
+
+const menuDireito = document.createElement('div');
+  menuDireito.className = 'menuDireito'; 
+  
+menuSuperior.appendChild(logo);
+menuSuperior.appendChild(barraDePesquisa);   
+menuSuperior.appendChild(lupa);  
+menuSuperior.appendChild(menuDireito);  
 
 //subistituir a img do bootstrap por um botão com img
 /*
@@ -23,14 +35,17 @@ filtroMenu.appendChild(icone);
 
 const produtos = document.getElementById('produtos')
 
-
 //mesma coisa que "filtros"
 /*
 const whats = document.getElementById('whats')
 */
 
+const footer = document.getElementById('footer');
 
-
+const contatos = document.createElement('div');
+  contatos.className = 'contatos';
+  
+footer.appendChild(contatos);
 
 
 
