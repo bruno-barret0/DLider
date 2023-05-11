@@ -1,0 +1,64 @@
+body{
+    background-image: linear-gradient(to top, black, rgb(73, 73, 73), black);
+    width: 99%;
+    height: 95vh; 
+    padding: 0, 0, 0, 0;
+    
+
+}
+/* menu superior inicio */
+#menu-superior{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    size-adjust: 100%;
+    height: 55px;
+    background-image: linear-gradient(black);
+    border-bottom: solid 3px;
+    border-color: rgb(0, 255, 0);
+   
+
+}
+.logoimg{
+    width: 4%;
+}
+
+.bi-search{
+    color: rgb(0, 255, 0);
+   
+
+}
+.bi-list{
+    color: rgb(0, 255, 0);
+}
+.perquisa{
+
+}
+   /* menu superior fim */
+
+   /* inicio filtros */
+#filtros{
+    
+    display: flex;
+   flex-direction: column;
+    align-items: left;
+    width: 100%;
+    height: 98.3%;
+    
+
+}
+
+#filtomenu{
+    padding-left: 50%;
+}
+
+
+   /* filtros fim */
+   /*contato inicio */
+.zap{
+    background-color: white;
+    width: 5%;
+}
+
+   /* contato fim */
