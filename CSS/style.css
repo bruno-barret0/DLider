@@ -8,7 +8,7 @@ body{
 
 }
 /* menu superior inicio */
-#menu-superior{
+#menuSuperior{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -54,7 +54,7 @@ body{
 
 }
 
-#filtomenu{
+#filtroMenu{
     padding-left: 50%;
     position: absolute;
 }
