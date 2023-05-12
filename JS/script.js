@@ -41,13 +41,15 @@ buttonContainer.style.marginTop = '20px';
 const buttonImages = [
   'images/whatsapp.png',
   'images/facebook.png',
-  'images/instagram.png'
+  'images/instagram.png',
+  'images/map.png'
 ];
 
 const buttonLinks = [
   'https://wa.me/41998919614',
   'https://www.facebook.com/Liderbebidas.oficial/',
-  'https://www.instagram.com/leonardo.manique/'
+  'https://www.instagram.com/leonardo.manique/',
+  'https://www.google.com/maps/place/Distribuidora+Lider+Bebidas/@-25.348023,-49.2156269,17z/data=!3m1!4b1!4m6!3m5!1s0x94dce7f64e53f0e3:0xa2ae1be1e2c049b9!8m2!3d-25.348023!4d-49.2134382!16s%2Fg%2F11g1gmy96_'
 ];
 
 for (let i = 0; i < buttonImages.length; i++) {
@@ -73,5 +75,7 @@ for (let i = 0; i < buttonImages.length; i++) {
 // adicionar os botões ao footer
 footer.appendChild(buttonContainer);
 document.body.appendChild(footer);
+
+
 
 

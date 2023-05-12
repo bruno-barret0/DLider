@@ -118,7 +118,16 @@ footer{
     margin: 5px;
 }
    /* footer final */
-
+   #footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    height: 7%x;
+    border-top: solid 3px;
+    border-image: linear-gradient(to right, green, rgb(8, 255, 8),green)30;
+}
    /*contato inicio */
 #contatos{
     display: flex;
@@ -130,7 +139,7 @@ footer{
    /* contato fim */
 
    .button-image {
-    width: 30px;
+    width: 90%;
     height: 30px;
     opacity: 0.6;
 }
@@ -143,15 +152,4 @@ footer{
 .button-image.enlarge {
     transform: scale(1.1); 
     opacity: 1;
-}
-
-#footer{
-    position: fixed;
-    bottom: 0;
-    background-color: black;
-    align-items: center;
-    width: 100%;
-    height: 70px;
-    border-top: solid 3px;
-    border-image: linear-gradient(to right, green, rgb(8, 255, 8),green)30;
 }
