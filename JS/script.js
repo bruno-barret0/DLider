@@ -47,45 +47,39 @@ const footer = document.getElementById('footer');
 const contatos = document.createElement('div');
   contatos.className = 'contatos';
 
-  const painel = document.createElement('div');
-  painel.className = 'Painel';
+  const painel = document.createElement('buttom');
+  painel.href = 'https://www.facebook.com/Liderbebidas.oficial/';
+  painel.taget = '_blank';
   const imagemFacebook = document.createElement('img');
   imagemFacebook.src = './images/facebookStatic.png';
   imagemFacebook.alt = '';
-  imagemFacebook.className = 'facebookStatic';
   painel.appendChild(imagemFacebook);
 
-  const painel1 = document.createElement('div');
-  painel1.className = 'painel1';
+  const painel2 = document.createElement('buttom');
   const imagemInstagram = document.createElement('img');
   imagemInstagram.src = './images/instaStatic.png';
   imagemInstagram.alt = '';
-  imagemInstagram.className = 'InstaStatic';
-  painel1.appendChild(imagemInstagram);
+  painel2.appendChild(imagemInstagram);
 
-  const painel2 = document.createElement('div');
-  painel2.className = 'painel2';
+  const painel3 = document.createElement('buttom');
   const imagemtelefone = document.createElement('img');
   imagemtelefone.src = './images/telcontato.png';
   imagemtelefone.alt = '';
-  imagemtelefone.className = 'telStatic';
-  painel2.appendChild(imagemtelefone);
+  painel3.appendChild(imagemtelefone);
 
-  const painel3 = document.createElement('div');
-  painel3.className ='painel3';
+  const painel4 = document.createElement('buttom');
   const imagemEmail = document.createElement('img');
   imagemEmail.src = './images/mailcontato.png'
   imagemEmail.alt = '';
-  imagemEmail.className = 'mailStatic';
-  painel3.appendChild(imagemEmail);
+  painel4.appendChild(imagemEmail);
 
 
   
 footer.appendChild(contatos);
 footer.appendChild(painel); 
-footer.appendChild(painel1); 
 footer.appendChild(painel2);
-footer.appendChild(painel3)
+footer.appendChild(painel3);
+footer.appendChild(painel4);
 
 
 
