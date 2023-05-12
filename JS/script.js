@@ -45,8 +45,8 @@ const buttonImages = [
 ];
 
 const buttonLinks = [
-  'https://wa.me/+5541997981076',
-  'https://www.facebook.com/Because.want.to.bother.me',
+  'https://wa.me/41998919614',
+  'https://www.facebook.com/Liderbebidas.oficial/',
   'https://www.instagram.com/leonardo.manique/'
 ];
 
