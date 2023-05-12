@@ -128,3 +128,19 @@ footer{
     }
 
    /* contato fim */
+
+   .button-image {
+    width: 30px;
+    height: 30px;
+    opacity: 0.6;
+}
+
+.button-image:hover {
+    transform: scale(1.1); 
+    opacity: 1;
+} 
+    
+.button-image.enlarge {
+    transform: scale(1.1); 
+    opacity: 1;
+}

@@ -1,88 +1,64 @@
-const menuSuperior = document.getElementById('menuSuperior');
+const pai = document.getElementById('pai');
+
+const menuSuperior = document.createElement('div');
+menuSuperior.id = 'menuSuperior';
 
 const logo = document.createElement('div');
-  logo.className = 'logo';
-  const imagem = document.createElement('img');
-  imagem.src = './images/logo.png';
-  imagem.alt = '';
-  imagem.className = 'logoimg';
-  logo.appendChild(imagem);
+logo.className = 'logo';
+const imagem = document.createElement('img');
+imagem.src = './images/logo.png';
+imagem.alt = '';
+imagem.className = 'logoimg';
+logo.appendChild(imagem);
 
 const barraDePesquisa = document.createElement('div');
-  barraDePesquisa.className = 'barraDePesquisa';
+barraDePesquisa.className = 'barraDePesquisa';
 
 const lupa = document.createElement('div');
-  lupa.className = 'lupa';
+lupa.className = 'lupa';
 
 const menuDireito = document.createElement('div');
-  menuDireito.className = 'menuDireito'; 
+menuDireito.className = 'menuDireito'; 
   
 menuSuperior.appendChild(logo);
 menuSuperior.appendChild(barraDePesquisa);   
 menuSuperior.appendChild(lupa);  
 menuSuperior.appendChild(menuDireito); 
 
+pai.appendChild(menuSuperior);
 
+let buttonContainer = document.createElement('div');
+buttonContainer.id = 'button-container';
+buttonContainer.style.display = 'flex';
+buttonContainer.style.justifyContent = 'center';
+buttonContainer.style.marginTop = '20px';
+pai.appendChild(buttonContainer);
 
-//subistituir a img do bootstrap por um botão com img
-/*
-const filtros = document.getElementById('filtros')
-const filtroMenu = document.createElement('filtroMenu')
+let buttonImages = [      
+    'images/whatsapp.png',    
+    'images/facebook.png',    
+    'images/instagram.png'];
+let buttonLinks = [          
+    'https://wa.me/+5541997981076',      
+    'https://www.facebook.com/Because.want.to.bother.me',      
+    'https://www.instagram.com/leonardo.manique/'];
+for (let i = 0; i < buttonImages.length; i++) {
+  let button = document.createElement('a');
+  button.style.margin = '0 10px';
+  let link = document.createElement('a');
+  link.href = buttonLinks[i];
+  link.target = '_blank';
+  let img = document.createElement('img'); // <-- should be "img" instead of "images"
+  img.src = buttonImages[i];
+  img.classList.add('button-image');
+  link.appendChild(img);
+  button.appendChild(link);
+  buttonContainer.appendChild(button);
+  img.addEventListener('mouseover', function() {
+    img.classList.add('enlarge');
+  });
+  img.addEventListener('mouseout', function() {
+    img.classList.remove('enlarge');
+  });
+}
 
-const icone = document.createElement('i')
-  icone.className = 'bi bi-filter-circle-fill';
-  icone.style.fontSize = '147%';
-filtroMenu.appendChild(icone);  
-*/
-
-const produtos = document.getElementById('produtos')
-
-//mesma coisa que "filtros"
-/*
-const whats = document.getElementById('whats')
-*/
-
-const footer = document.getElementById('footer');
-
-const contatos = document.createElement('div');
-  contatos.className = 'contatos';
-
-  const painel = document.createElement('buttom');
-  painel.href = 'https://www.facebook.com/Liderbebidas.oficial/';
-  painel.taget = '_blank';
-  const imagemFacebook = document.createElement('img');
-  imagemFacebook.src = './images/facebookStatic.png';
-  imagemFacebook.alt = '';
-  painel.appendChild(imagemFacebook);
-
-  const painel2 = document.createElement('buttom');
-  const imagemInstagram = document.createElement('img');
-  imagemInstagram.src = './images/instaStatic.png';
-  imagemInstagram.alt = '';
-  painel2.appendChild(imagemInstagram);
-
-  const painel3 = document.createElement('buttom');
-  const imagemtelefone = document.createElement('img');
-  imagemtelefone.src = './images/telcontato.png';
-  imagemtelefone.alt = '';
-  painel3.appendChild(imagemtelefone);
-
-  const painel4 = document.createElement('buttom');
-  const imagemEmail = document.createElement('img');
-  imagemEmail.src = './images/mailcontato.png'
-  imagemEmail.alt = '';
-  painel4.appendChild(imagemEmail);
-
-
-  
-footer.appendChild(contatos);
-footer.appendChild(painel); 
-footer.appendChild(painel2);
-footer.appendChild(painel3);
-footer.appendChild(painel4);
-
-
-
-
-
- 
