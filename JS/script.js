@@ -27,28 +27,36 @@ menuSuperior.appendChild(menuDireito);
 
 pai.appendChild(menuSuperior);
 
-let buttonContainer = document.createElement('div');
+// criar o elemento HTML para o footer
+const footer = document.createElement('div');
+footer.id = 'footer';
+
+// criar os elementos HTML para os botões de redes sociais
+const buttonContainer = document.createElement('div');
 buttonContainer.id = 'button-container';
 buttonContainer.style.display = 'flex';
 buttonContainer.style.justifyContent = 'center';
 buttonContainer.style.marginTop = '20px';
-pai.appendChild(buttonContainer);
 
-let buttonImages = [      
-    'images/whatsapp.png',    
-    'images/facebook.png',    
-    'images/instagram.png'];
-let buttonLinks = [          
-    'https://wa.me/+5541997981076',      
-    'https://www.facebook.com/Because.want.to.bother.me',      
-    'https://www.instagram.com/leonardo.manique/'];
+const buttonImages = [
+  'images/whatsapp.png',
+  'images/facebook.png',
+  'images/instagram.png'
+];
+
+const buttonLinks = [
+  'https://wa.me/+5541997981076',
+  'https://www.facebook.com/Because.want.to.bother.me',
+  'https://www.instagram.com/leonardo.manique/'
+];
+
 for (let i = 0; i < buttonImages.length; i++) {
-  let button = document.createElement('a');
+  const button = document.createElement('a');
   button.style.margin = '0 10px';
-  let link = document.createElement('a');
+  const link = document.createElement('a');
   link.href = buttonLinks[i];
   link.target = '_blank';
-  let img = document.createElement('img'); // <-- should be "img" instead of "images"
+  const img = document.createElement('img');
   img.src = buttonImages[i];
   img.classList.add('button-image');
   link.appendChild(img);
@@ -61,4 +69,9 @@ for (let i = 0; i < buttonImages.length; i++) {
     img.classList.remove('enlarge');
   });
 }
+
+// adicionar os botões ao footer
+footer.appendChild(buttonContainer);
+document.body.appendChild(footer);
+
 
