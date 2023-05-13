@@ -38,10 +38,22 @@ body{
     right: 2%; 
     transform: translateY(-50%);
     width: 1.5%; 
-    height: auto; 
+     
 
 
 }
+
+.button-imageD:hover {
+    transform: scale(1.1); 
+    opacity: 1;
+} 
+    
+.button-imageD.enlarge {
+    transform: scale(1.1); 
+    opacity: 1;
+}
+
+
 
 
    /* menu superior fim */
@@ -107,3 +119,4 @@ body{
     transform: scale(1.1); 
     opacity: 1;
 }
+
