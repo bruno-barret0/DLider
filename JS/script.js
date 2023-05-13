@@ -36,13 +36,11 @@ buttonSuperior.style.justifyContent = 'right';
 buttonSuperior.style.marginTop = '0';
 
 const buttonImagesD = [
-  'images/whatsapp.png',
   'images/map.png',
 ];
 
 const buttonLinksD = [
-  'https://www.facebook.com/Liderbebidas.oficial/',
-  'https://www.instagram.com/leonardo.manique/',
+  'https://www.google.com/maps/place/Distribuidora+Lider+Bebidas/@-25.348023,-49.2134382,15z/data=!4m2!3m1!1s0x0:0xa2ae1be1e2c049b9?sa=X&ved=2ahUKEwiHluKviPP-AhUNLLkGHUpoBwMQ_BJ6BAg7EAg',
 ];
 
 for (let i = 0; i < buttonImagesD.length; i++) {

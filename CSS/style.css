@@ -31,15 +31,19 @@ body{
   height: auto;
 }
 
-.button-imageD{
+
+ .button-imageD{ 
     position: absolute;
-    bottom: 2%;
+    top: 50%;
     right: 2%; 
     transform: translateY(-50%);
     width: 1.5%; 
-    height: auto;
+    height: auto; 
+
 
 }
+
+
    /* menu superior fim */
 
    /* inicio filtros */
