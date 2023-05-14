@@ -108,11 +108,13 @@ buttonContainer.style.marginTop = '20px';
 const buttonImages = [
 'images/facebook.png',
 'images/instagram.png',
+'images/map.png',
 ];
 
 const buttonLinks = [
 'https://www.facebook.com/Liderbebidas.oficial/',
 'https://www.instagram.com/liderbebidas.oficial/?fbclid=IwAR1QfCzVdGr8Tkaa7O6rdCpzgMn7EzTQT7qen4BM6PYhWBp9HTAxiifKyek',
+'https://www.google.com/maps/place/Distribuidora+Lider+Bebidas/@-25.348023,-49.2134382,15z/data=!4m2!3m1!1s0x0:0xa2ae1be1e2c049b9?sa=X&ved=2ahUKEwjayaqZofX-AhUDKLkGHd7nDBYQ_BJ6BAg_EAg',
 ];
 
 for (let i = 0; i < buttonImages.length; i++) {
