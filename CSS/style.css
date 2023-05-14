@@ -67,10 +67,10 @@ body{
    /* footer inicio */
 
 #footer{  
-  background-color: black;
+  background-image:linear-gradient(black,black, black, black, rgb(96, 255, 96));
   align-items: center;
   width: 100%;
-  min-height: 30%;
+  min-height: 38%;
   border-top: solid 3px;
   border-image: linear-gradient(to right, green, rgb(8, 255, 8), green) 30;
 }
@@ -79,20 +79,25 @@ body{
     right: 2%;
     padding-top: 0.2%;
     color: white;
-    font-size: 100%;
+    font-size: 130%;
     position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 .textoFooter1{
     padding-top: 0;
     color: white;
     font-size: 120%;
     position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 .textoFooter2{
     padding-top: 1.5%;
     color: white;
     font-size: 130%;
     position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
  /* footer final */
  
