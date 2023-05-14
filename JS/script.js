@@ -83,7 +83,7 @@ const footer = document.createElement('div');
 footer.id = 'footer';
 const textoFooter = document.createElement('p');
 textoFooter.className = 'textoFooter'
-textoFooter.textContent = 'segunda-feira	10:00–20:00 <br>; terça-feira	08:00–00:00 <br> quarta-feira	08:00–00:00 <br> quinta-feira	08:00–00:00 <br> sexta-feira	08:00–02:00 <br> sábado	08:00–02:00';
+textoFooter.innerHTML = 'Segunda-feira	10:00–20:00; <br> Terça-feira	08:00–00:00; <br> Quarta-feira	08:00–00:00; <br> Quinta-feira	08:00–00:00; <br> Sexta-feira	08:00–02:00; <br> Sábado 08:00–02:00; <br> Domingo 10:00-20:00; ';
 footer.appendChild(textoFooter);
 
 
