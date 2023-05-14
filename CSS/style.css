@@ -14,10 +14,12 @@ body{
     size-adjust: 100%;
     width: 100%;
     height: 9%;
-    background-image: linear-gradient(black);
+    background: black;
     border-bottom: solid 3px;
     border-image: linear-gradient(to right, green, rgb(8, 255, 8),green )30;
     position: fixed;
+    top: 0;
+    z-index: 9999;
   
 
 }
@@ -64,16 +66,13 @@ body{
    
    /* footer inicio */
 
-  
-   #footer{
-    position: fixed;
-    bottom: 0;
-    background-color: black;
-    align-items: center;
-    width: 100%;
-    height: 7%x;
-    border-top: solid 3px;
-    border-image: linear-gradient(to right, green, rgb(8, 255, 8),green)30;
+#footer{  
+  background-color: black;
+  align-items: center;
+  width: 100%;
+  min-height: 20%;
+  border-top: solid 3px;
+  border-image: linear-gradient(to right, green, rgb(8, 255, 8), green) 30;
 }
  /* footer final */
  
