@@ -14,8 +14,8 @@
     border: 1px solid green;
     padding: 20px;
     text-align: center;
-    background-color: black;
-    box-shadow: 0 5px 5px 0 green;
+    background-image: linear-gradient(black, gray, black);
+    box-shadow: 0 5px 5px 0 rgb(255, 255, 255, 0.4);
   }
   
   .product-item img {
