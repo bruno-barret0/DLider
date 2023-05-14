@@ -31,14 +31,13 @@ body{
   height: auto;
 }
 
-.button-imageD{
+.button-imageD {
     position: absolute;
     bottom: 2%;
-    right: 2%; 
+    right: 0.3%;
+    top: 700%;
     transform: translateY(-50%);
-    width: 1.5%; 
-    height: auto;
-
+    height: 3rem;
 }
    /* menu superior fim */
 
@@ -104,6 +103,7 @@ body{
     opacity: 1;
 }
 
+
 .slick-prev, .slick-next{
     z-index: 2;
 }
@@ -124,5 +124,9 @@ body{
 .slick-initialized .slick-slide {
     height: 400px;
     width: 1900px;
+}
+
+.txt{
+    height: 2000px;
 }
 

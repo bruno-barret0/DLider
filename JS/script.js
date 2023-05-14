@@ -50,7 +50,8 @@ buttonSuperior.style.marginTop = '0';
 
 const buttonImagesD = [
   'images/whatsapp.png',
-  'images/map.png',
+
+
 ];
 
 const buttonLinksD = [
