@@ -83,7 +83,7 @@ const footer = document.createElement('div');
 footer.id = 'footer';
 const textoFooter = document.createElement('p');
 textoFooter.className = 'textoFooter'
-textoFooter.innerHTML = 'Segunda-feira	10:00–20:00; <br> Terça-feira	08:00–00:00; <br> Quarta-feira	08:00–00:00; <br> Quinta-feira	08:00–00:00; <br> Sexta-feira	08:00–02:00; <br> Sábado 08:00–02:00; <br> Domingo 10:00-20:00; ';
+textoFooter.innerHTML = ' Horário de funcionamento: <br> Segunda-feira	10:00–20:00; <br> Terça-feira	08:00–00:00; <br> Quarta-feira	08:00–00:00; <br> Quinta-feira	08:00–00:00; <br> Sexta-feira	08:00–02:00; <br> Sábado 08:00–02:00; <br> Domingo 10:00-20:00. ';
 footer.appendChild(textoFooter);
 
 
@@ -91,6 +91,11 @@ const textoFooter1 = document.createElement('p');
 textoFooter1.className = 'textoFooter1'
 textoFooter1.textContent = 'Endereço: R. José Domingues, 11 - Roça Grande, Colombo - PR, 83402-620';
 footer.appendChild(textoFooter1);
+
+const textoFooter2 = document.createElement('p');
+textoFooter2.className = 'textoFooter2'
+textoFooter2.textContent = 'Telefone: (41) 99891-9614';
+footer.appendChild(textoFooter2);
 
 
 // criar os elementos HTML para os botões de redes sociais
@@ -107,7 +112,7 @@ const buttonImages = [
 
 const buttonLinks = [
 'https://www.facebook.com/Liderbebidas.oficial/',
-'https://www.instagram.com/leonardo.manique/',
+'https://www.instagram.com/liderbebidas.oficial/?fbclid=IwAR1QfCzVdGr8Tkaa7O6rdCpzgMn7EzTQT7qen4BM6PYhWBp9HTAxiifKyek',
 ];
 
 for (let i = 0; i < buttonImages.length; i++) {
