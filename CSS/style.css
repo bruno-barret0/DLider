@@ -74,6 +74,16 @@ body{
   border-top: solid 3px;
   border-image: linear-gradient(to right, green, rgb(8, 255, 8), green) 30;
 }
+
+.textoFooter{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 1%;
+    color: white;
+}
+.textoFooter1{
+    color: white;
+}
  /* footer final */
  
    /*contato inicio */

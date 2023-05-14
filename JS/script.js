@@ -42,8 +42,7 @@ const buttonImagesD = [
 ];
 
 const buttonLinksD = [
-  'https://www.facebook.com/Liderbebidas.oficial/',
-  'https://www.instagram.com/leonardo.manique/',
+  'https://api.whatsapp.com/send/?phone=41998919614&text&type=phone_number&app_absent=0',
 ];
 
 for (let i = 0; i < buttonImagesD.length; i++) {
@@ -82,6 +81,17 @@ pai.appendChild(menuSuperior);
 // criar o elemento HTML para o footer
 const footer = document.createElement('div');
 footer.id = 'footer';
+const textoFooter = document.createElement('p');
+textoFooter.className = 'textoFooter'
+textoFooter.textContent = 'segunda-feira	10:00–20:00 <br>; terça-feira	08:00–00:00 <br> quarta-feira	08:00–00:00 <br> quinta-feira	08:00–00:00 <br> sexta-feira	08:00–02:00 <br> sábado	08:00–02:00';
+footer.appendChild(textoFooter);
+
+
+const textoFooter1 = document.createElement('p');
+textoFooter1.className = 'textoFooter1'
+textoFooter1.textContent = 'Endereço: R. José Domingues, 11 - Roça Grande, Colombo - PR, 83402-620';
+footer.appendChild(textoFooter1);
+
 
 // criar os elementos HTML para os botões de redes sociais
 const buttonContainer = document.createElement('div');
