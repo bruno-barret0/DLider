@@ -1,0 +1,22 @@
+.slick-prev, .slick-next{
+    z-index: 2;
+}
+
+.slick-prev{
+    left: 25px;
+
+}
+
+.slick-next{
+    right: 25px;
+}
+
+.slick-slider{
+   top: 100px;
+}
+
+.slick-initialized .slick-slide {
+    height: 400px;
+    width: 1900px;
+}
+
