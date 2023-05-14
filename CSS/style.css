@@ -31,31 +31,15 @@ body{
   height: auto;
 }
 
-
- .button-imageD{ 
+.button-imageD{
     position: absolute;
-    top: 50%;
+    bottom: 2%;
     right: 2%; 
     transform: translateY(-50%);
     width: 1.5%; 
-     
-
+    height: auto;
 
 }
-
-.button-imageD:hover {
-    transform: scale(1.1); 
-    opacity: 1;
-} 
-    
-.button-imageD.enlarge {
-    transform: scale(1.1); 
-    opacity: 1;
-}
-
-
-
-
    /* menu superior fim */
 
    /* inicio filtros */
@@ -118,5 +102,27 @@ body{
 .button-image.enlarge {
     transform: scale(1.1); 
     opacity: 1;
+}
+
+.slick-prev, .slick-next{
+    z-index: 2;
+}
+
+.slick-prev{
+    left: 25px;
+
+}
+
+.slick-next{
+    right: 25px;
+}
+
+.slick-slider{
+   top: 100px;
+}
+
+.slick-initialized .slick-slide {
+    height: 400px;
+    width: 1900px;
 }
 
