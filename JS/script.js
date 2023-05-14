@@ -1,5 +1,4 @@
 const pai = document.getElementById('pai');
-const body = document.body;
 
 const menuSuperior = document.createElement('div');
 menuSuperior.id = 'menuSuperior';
@@ -14,26 +13,12 @@ imagem.src = './images/logo.png';
 imagem.alt = '';
 imagem.className = 'logoimg';
 logo.appendChild(imagem);
-
-const barraDePesquisa = document.createElement('div');
-barraDePesquisa.className = 'barraDePesquisa';
-
-const lupa = document.createElement('div');
-lupa.className = 'lupa';
-
-const menuDireito = document.createElement('div');
-menuDireito.className = 'menuDireito'; 
-menuDireito.style.display = 'flex';
-menuDireito.style.justifyContent = 'flex-end';
-
-body.appendChild(menuSuperior);
+pai.appendChild(menuSuperior);
 
 const contatosSuperior = document.getElementById('CSDireita');
 const buttonSuperior = document.createElement('div');
 buttonSuperior.className = 'button-containerD';
-buttonSuperior.style.display = 'flex';
-buttonSuperior.style.justifyContent = 'right';
-buttonSuperior.style.marginTop = '0';
+
 
 const buttonImagesD = [
   'images/whatsapp.png',
@@ -65,18 +50,10 @@ for (let i = 0; i < buttonImagesD.length; i++) {
   });
  
 }
-
-
 contatosSuperior.appendChild(buttonSuperior);
-body.appendChild(contatosSuperior);
 menuSuperior.appendChild(contatosSuperior);
-
-
 menuSuperior.appendChild(logo);
-menuSuperior.appendChild(barraDePesquisa);
-menuSuperior.appendChild(lupa);
-menuSuperior.appendChild(menuDireito);
-pai.appendChild(menuSuperior);
+
 
 // criar o elemento HTML para o footer
 const footer = document.createElement('div');
